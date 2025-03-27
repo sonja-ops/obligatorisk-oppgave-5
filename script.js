@@ -86,7 +86,7 @@ const ChuckBtn = document.querySelector('#ChuckBtn'); //Henter knapp
 const ChuckText = document.querySelector('#ChuckText'); //Henter p som viser teksten
 
 async function ChuckNorrisApi() {
-  const response = await fetch('https://api.chucknorris.io/random'); //API for Chuck Norris facts
+  const response = await fetch('//api.chucknorris.io/jokes/random'); //API for Chuck Norris facts
   console.log(response);
   let data = await response.json();
   console.log(data);
