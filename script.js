@@ -69,7 +69,8 @@ async function fetchApi() {
   });
 }
 
-fetchApi();
+
+setTimeout(fetchApi,7000);
 
 // Hele arrayet
 // Vi finner data array, array med objects
